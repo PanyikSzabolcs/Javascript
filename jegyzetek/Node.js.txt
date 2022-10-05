@@ -1,0 +1,11 @@
+1. Node.js futtatási környezete
+
+Célja a http kérések fogadása, vagy a http válasz küldése.
+Tud írni és olvasni egy fájlból.
+El tudja tárolni az adatokat és fogadni illetve választ küldeni.
+
+Ha folyamatosan frissülő elem van a html oldalon akkor a válasz szerver oldalról JSON formátumban fog történni.
+
+
+2. Szerver létrehozása
+

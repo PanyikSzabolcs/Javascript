@@ -1,0 +1,10 @@
+2 oldalból áll: Kliens és Szerver oldal.
+
+Javascript engine: Vezérli a böngészőt. Irányítja a html dokumentumot. Hozzáfér a konzolhoz . 
+Módosítani tudja az elemek attribútumát, törölni tud és létrehozni új elemet. 
+Maga az engine tud kéréseket küldeni a szerver oldal felé.
+Illetve adattárolásra is használható. Illetve később kiolvasható belőle adat.
+
+A JS motor szerver oldalon is futtatható.
+
+AJAX kérések: Példa kérés: document.getElementById("valami id-je").style.backgroundColor = "green";
