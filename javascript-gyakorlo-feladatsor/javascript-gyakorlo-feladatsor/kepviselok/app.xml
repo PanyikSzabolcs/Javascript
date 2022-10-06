@@ -1,0 +1,38 @@
+<?xml version = "1.0"?>
+<root>
+  <meta>
+    <type>app</type>
+  </meta>
+
+  <body>
+    <scriptUrls>
+      <item>/public/codeStepperContent/javascript-gyakorlo-feladatsor/kepviselok/script.js</item>
+    </scriptUrls>
+    <content>
+      <h1>5. Feladat:</h1>
+
+      <p class="mb-3 text-center">
+        Oldalletöltéskor AJAX kéréssel töltsd le a parlamenti képviselők listáját a
+        <a target="_blank" href="https://kodbazis.hu/api/members">
+          https://kodbazis.hu/api/members
+        </a>
+        URL-ről!
+        <br/>
+        <br/>
+        Készíts lapozót úgy, hogy egy oldalon 30 képviselő jelenjen meg!
+        <br/>
+        A gombokat dinamikusan generáld ki, a képviselők számától függően!
+      </p>
+
+      <div class="text-center m-2 d-flex">
+        <a class="m-auto" href="/public/codeStepperContent/javascript-gyakorlo-feladatsor/kepviselok/lapozo-sablon.zip">
+          Töltsd le a sablon fájlokat
+        </a>
+      </div>
+
+      <p class="mb-2 text-center">A kívánt végeredmény:</p>
+      <div id="app-container"></div>
+
+    </content>
+  </body>
+</root>

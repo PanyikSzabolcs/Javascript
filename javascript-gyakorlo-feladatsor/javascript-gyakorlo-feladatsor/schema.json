@@ -1,0 +1,40 @@
+{
+  "title": "JavaScript gyakorló feladatsor",
+  "logoUrl": "/public/images/js-logo-small.png",
+  "moduleRootUrl": "/public/codeStepperContent/javascript-gyakorlo-feladatsor/",
+  "primaryColor": "#02590f",
+  "secondaryColor": "#590253",
+  "isDrawerOpenByDefault": false,
+  "parts": [
+    {
+      "title": "Formák",
+      "layout": "cl-3",
+      "modulePaths": ["formak/app.xml", "formak/textArray.xml", "formak/code.xml"]
+    },
+    {
+      "title": "Teendők lekérdezése",
+      "layout": "cl-4",
+      "modulePaths": ["teendok/app.xml", "teendok/textArray.xml", "teendok/code.xml"]
+    },
+    {
+      "title": "Drag and drop",
+      "layout": "cl-3",
+      "modulePaths": ["drag-and-drop/app.xml", "empty.xml", "drag-and-drop/code.xml"]
+    },
+    {
+      "title": "Képnézegető",
+      "layout": "cl-4",
+      "modulePaths": ["kepnezegeto/app.xml", "kepnezegeto/textArray.xml", "kepnezegeto/code.xml"]
+    },
+    {
+      "title": "Lapozó készítése",
+      "layout": "cl-4",
+      "modulePaths": ["kepviselok/app.xml", "empty.xml", "kepviselok/code.xml"]
+    },
+    {
+      "title": "Küldj feladatot!",
+      "layout": "cl-4",
+      "modulePaths": ["kuldj-feladatot/text.xml", "empty.xml", "kuldj-feladatot/code.xml"]
+    }
+  ]
+}

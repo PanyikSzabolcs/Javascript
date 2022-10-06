@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <title>Teendők</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Feladat:</h1>
+      <p>
+        1. Gombnyomásra küldj AJAX kérést a
+        <small>
+          <a target="_blank" href="http://jsonplaceholder.typicode.com/todos">
+            http://jsonplaceholder.typicode.com/todos
+          </a>
+        </small>
+        URL-re és szerezd meg a teendők (angolul "todo"-k) listáját!
+      </p>
+      <br />
+      <p>
+        2. A kapott adathalmazt array methodok segítségével alakítsd át úgy, hogy a végeredmény csak azon teendők
+        címeiből álljon, amelyeknél a
+        <code>completed</code>
+        kulcs alatt
+        <code>true</code>
+        érték van.
+      </p>
+      <br />
+      <p>3. Jelenítsd meg a címeket!</p>
+      <br />
+      <button class="btn btn-primary" id="fetch-btn">Próbáld ki</button>
+      <br />
+      <div id="todo-list"></div>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>

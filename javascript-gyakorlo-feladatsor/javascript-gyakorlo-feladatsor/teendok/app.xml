@@ -1,0 +1,48 @@
+<?xml version = "1.0"?>
+<root>
+  <meta>
+    <type>app</type>
+  </meta>
+
+  <body>
+    <scriptUrls>
+      <item>/public/codeStepperContent/javascript-gyakorlo-feladatsor/teendok/script.js</item>
+    </scriptUrls>
+    <content>
+
+      <h1>Második feladat:</h1>
+      <p class="mb-1">
+        1. Gombnyomásra küldj AJAX kérést a
+        <br/>
+        <small>
+          <a target="_blank" href="http://jsonplaceholder.typicode.com/todos" style="word-break: break-all; word-wrap:break-word;">
+            http://jsonplaceholder.typicode.com/todos
+          </a>
+        </small>
+        URL-re és szerezd meg a teendők (angolul "todo"-k) listáját!
+      </p>
+      <br/>
+      <p class="mb-1">
+        2. A kapott adathalmazt array methodok segítségével alakítsd át úgy, hogy a végeredmény csak azon teendők címeiből álljon, amelyeknél a
+        <code>completed</code>
+        kulcs alatt
+        <code>true</code>
+        érték van.
+      </p>
+      
+      <p class="mb-1">
+        3. Jelenítsd meg a címeket!
+      </p>
+      
+      <button class="btn btn-primary mb-2" id="fetch-btn">Próbáld ki</button>
+      
+      <div class="text-center m-2 d-flex">
+        <a class="m-auto" href="/public/codeStepperContent/javascript-gyakorlo-feladatsor/teendok/teendok-sablon.zip">
+          Töltsd le a sablon fájlokat
+        </a>
+      </div>
+      <div id="todo-list"></div>
+
+    </content>
+  </body>
+</root>
